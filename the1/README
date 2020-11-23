@@ -1,0 +1,10 @@
+Ismail Hakki Kocdemir
+2036051
+CENG483, Computer Vision, 20172, THE1 Report.
+
+Implementation expects images under "\dataset" directory.
+The pipeline is run as follows:
+
+    1. Run extract_descriptors.py . Usage: 'python extract_descriptors.py [imageFiles.txt]
+    2. Run cluster.py . Usage: 'python cluster.py [imageFiles.txt] [mode] [num_of_clusters]'. Modes={'sift', 'dense_sift'}
+    3. Run make_query.py . Usage: 'python make_query.py [queryFile.txt] [imageFile.txt] [mode]'. Modes={'sift', 'dense_sift'}
